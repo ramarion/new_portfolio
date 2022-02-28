@@ -1,0 +1,630 @@
+<!doctype html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <link rel="icon" href="img/foe_logo.svg" type="image/svg" />
+    <!-- meta tag to make sure content is same width as device and not scalable -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Family Of Eateries</title>
+    
+    <!-- link to css files -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- link to js dependencies -->
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="js/vendor/gsap.min.js"></script>
+</head>
+
+<body>
+    
+    <!-- MENU -->
+    <main id="menu">
+        <img class="menuimg" src="img/foe_logo.svg" alt="Family of Eateries" />
+        <div id="backToLanding" class="menuBtn"><img src="img/landing_icon.svg" alt="Home" /><span>Select a New Restaurant</span></div>
+        <div id="backToContact" class="menuBtn"><img class="contactIcon" src="img/contact_icon.svg" alt="Contact" /><span>Contact Family of Eateries</span></div>
+        <div id="backToAbout" class="menuBtn"><img src="img/about_icon.svg" alt="About" /><span>About Family of Eateries</span></div>
+        
+    </main>
+    
+    
+    
+    <!--reserve-->
+    
+    <main id="madeReserve" class="reserver"><img src="img/tick.gif" alt="tick" /><span>Your Reservation has been made</span></main>
+    
+    <!-- SPLASH SCREEN -->
+    <main id="splash">
+        
+        <img src="img/foe_logo.svg" alt="Family of Eateries" />
+        <p>WELCOME</p>
+        
+    </main>
+    <!-- LANDING SCREEN -->
+    <main id="landing">
+        <header>
+            <img src="img/foe_logo.svg" alt="Family of Eateries" />
+            <p>TAP TO SELECT A RESTAURANT</p>
+        </header>
+        <div id="logo1" class="landingLogos">
+            
+            <img class="ceviche" src="img/ceviche_logo.svg" alt="Ceviche" />
+        </div>
+        <div id="logo2" class="landingLogos">
+           
+            <img class="vine" src="img/5vine_logo.svg" alt="5 Vine" />
+        </div>
+        <div id="logo3" class="landingLogos">
+           
+            <img class="hearth" src="img/stone.svg" alt="Stone" />
+        </div>
+        
+    </main>
+    <!-- RESTAURANT 1 -->
+    <main id="rest1" class="rest">
+        <!-- header -->
+        <header>
+            <img class="hamburger" src="img/close2hamburger.gif" alt="Menu" />
+            <h1>Ceviche</h1>
+        </header>
+        
+        
+        <!-- home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <img class="logo reveal" src="img/ceviche_logo.svg" alt="Ceviche" />
+                <p class="tel reveal">1-800-CEVICHE</p>
+                <p class="add reveal">66 Simcoe St S, Oshawa, ON L1H 4G3</p>               
+                <div class="bar reveal">FINE DINING</div>
+                <div class="photoAddress reveal">
+                    <img class="homeImg" src="img/ceviche_home1.jpeg" alt="Home" />
+                    <h2>Our Rating</h2>
+                    
+                    <img class="rating" src="img/ceviche_rating.png" alt="Rating" />
+                    <div class="photoCount">4 out of 5 stars!</div>
+                </div>
+                <div class="hours reveal">
+                    <h2>OPENING HOURS</h2>
+                    <p>HOURS TODAY - 10:00 TO 23:00</p>
+                </div>
+                <div class="reviews reveal">
+                    <div class="hour reveal"><h2>About Us</h2>
+                    <p>Restaurante Ceviche opened its doors in January 2006, and in 2010 won the second star in the Michelin Guide. Ceviche is much more than chef Muñoz Izquierdo’s gastronomic vision for Barcelona. It is a spiritual project with the very best team of professionals at its forefront that strives to delight its diners with every aroma and ﬂavour. After a full renovation carried out recently, the new Ceviche Restaurant is surprisingly much more modern and with more spacious and bright look.</p></div>
+                    <div class="head reveal">
+                    <h2>Testimonials</h2>
+                    </div>
+                    <div class="testimonial">        
+                    <img src="img/10.jpg" alt="tina" style="width:45px">
+                    <p><span>Drake.</span><br> Rapper/Celebrity</p>
+                    <p>Beautiful place, wonderful atmosphere. Quality Sevice and wonderful food.</p>
+                    </div>
+
+                    <div class="testimonial">
+                    <img src="img/11.jpg" alt="jen" style="width:45px">
+                    <p><span>Justin Beiber.</span><br> Singer/Celebrity.</p>
+                    <p>Ceviche is very upscale, courteous and lovely.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- specials -->
+        <section class="specials">
+        
+            <div class="sectionContainer">
+                <div class="bar reveal">TODAY'S SPECIALS</div>
+                <div class="menu reveal">
+                    <img class="homeImg" src="img/2.jpg" alt="Home" />
+                    <h3>Chicken Teriyaki ................ $40  </h3>
+                    <p id=tab>-With Shrimp pascale &amp; <br> -lemon pie.</p>
+                    
+                    <img class="homeIMG" src="img/3.jpg" alt="Rating" />
+                    <h3>Kebab ...................................... $35</h3>
+                    <p id=tab>-With salted fries,<br> -mashed potatoes &amp; -kale </p>
+                    
+                    <img class="homeIMG" src="img/1.jpg" alt="Rating" />
+                    <h3>Kids Meal ............................... $25</h3>
+                    <p id=tab>-1 Slice Pizza<br> -Curly Fries<br> -Medium Fries &amp; -Biscuit </p>
+                    
+                    <img class="homeIMG" src="img/12.jpg" alt="Rating" />
+                    <h3>Wine Tasting ........................ $20</h3>
+                    <p id=tab>Per Glass:<br> -Merlot<br> -Cabernet Sauvignon <br> -Chardonnay </p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <!-- reservations -->
+        <section class="reservations">
+        
+            <div class="sectionContainer">
+                
+                              
+                <div class="bar reveal">RESERVATIONS</div>        
+          
+                <h2 class="reveal">Please complete the form below</h2>
+                <p class="reveal"><span>*</span> indicates a required field.</p>
+                <form>
+                    <p class="reveal">
+                    <label for="name">Name: <span>*</span></label>
+                    <input type="text" name="name" placeholder="john doe" name="name" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="phone">Phone: <span>*</span></label>
+                    <input type="text" name="phone" placeholder='(123)-456-7890' name="phone" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="date">Date: <span>*</span></label>
+                    <input type="date" name="date" name="date" required />
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="time">Time: <span>*</span></label>
+                    <select name="time">
+                    <option>Select a time...</option>    
+                    <option value="10:00 AM">10:00 AM</option> 
+                    <option value="10:30 AM">10:30 AM</option> 
+                    <option value="11:00 AM">11:00 AM</option> 
+                    <option value="11:30 AM">11:30 AM</option> 
+                    <option value="12:00 PM">12:00 PM</option> 
+                    <option value="12:30 PM">12:30 PM</option> 
+                    <option value="01:00 PM">01:00 PM</option> 
+                    <option value="01:30 PM">1:30 PM</option> 
+                    <option value="02:00 PM">2:00 PM</option> 
+                    <option value="02:30 PM">2:30 PM</option> 
+                    <option value="03:00 PM">3:00 PM</option> 
+                    <option value="03:30 PM">3:30 PM</option> 
+                    <option value="04:00 PM">4:00 PM</option> 
+                    <option value="4:30 PM">4:30 PM</option> 
+                    <option value="5:00 PM">5:00 PM</option> 
+                    <option value="5:30 PM">5:30 PM</option> 
+                    <option value="6:00 PM">6:00 PM</option> 
+                    <option value="6:30 PM">6:30 PM</option> 
+                    <option value="7:00 PM">7:00 PM</option> 
+                    <option value="7:30 PM">7:30 PM</option> 
+                    <option value="8:00 PM">8:00 PM</option> 
+                    <option value="8:30 PM">8:30 PM</option> 
+                    <option value="9:00 PM">9:00 PM</option> 
+                    <option value="9:30 PM">9:30 PM</option> 
+                    <option value="10:30 PM">10:00 PM</option> 
+                    <option value="10:30 PM">10:30 PM</option> 
+                    <option value="11:00 PM">11:00 PM</option> 
+                    <option value="11:30 PM">11:30 PM</option> 
+                    
+                    </select>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="guests">Number of Guests<span>*</span></label>
+                    <select name="guests">
+                    <option>Select the number of guests...</option>    
+                    <option value="1">1</option> 
+                    <option value="2">2</option> 
+                    <option value="3">3</option> 
+                    <option value="4">4</option> 
+                    <option value="5">5</option> 
+                    <option value="6">6</option> 
+                    <option value="7">7</option> 
+                    <option value="8">8</option> 
+                    <option value="9">9</option> 
+                    <option value="10">10</option> 
+                    </select>
+                    </p>
+                    
+                    <p class="reveal">
+                        <label for="requests">Special Request</label>
+                        <textarea name="requests" rows="3"></textarea>
+                    </p>
+                    <p class="reveal">By clicking on submit you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
+
+                    <input type="submit" name="Submit"  class="reserve reveal"/>
+                </form>
+            </div>
+            
+        </section>
+        
+        
+        <!-- footer -->
+        <footer>
+            <div class="homeIcon" data-section=".home">
+                <img src="img/home_icon.svg" alt="Home" />
+                <p>About</p>
+            </div>
+            <div class="specialsIcon" data-section=".specials">
+                <img src="img/specials_icon.svg" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon" data-section=".reservations">
+                <img src="img/reservations_icon.svg" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+    
+    
+    <!-- RESTAURANT 2 -->
+    <main id="rest2" class="rest">
+        <!-- header -->
+        <header>
+            <img class="hamburger" src="img/close2hamburger.gif" alt="Menu" />
+            <h1>5 Vines</h1>
+        </header>
+        
+        
+        <!-- home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <img class="logo reveal" src="img/5vine_logo.svg" alt="Ceviche" />
+                <p class="tel reveal">1-800-VINE</p>
+                <p class="add reveal">266 Plesant St S, Oshawa, ON Z1Y 6J3</p>               
+                <div class="bar reveal">CASUAL DINING</div>
+                <div class="photoAddress reveal">
+                    <img class="homeImg" src="img/vine_home1.jpg" alt="Home" />
+                    <h2>Our Rating</h2>
+                    
+                    <img class="rating" src="img/vine_rating.png" alt="Rating" />
+                    <div class="photoCount">4 out of 5 stars!</div>
+                </div>
+                <div class="hours reveal">
+                    <h2>OPENING HOURS</h2>
+                    <p>HOURS TODAY - 10:00 TO 23:00</p>
+                </div>
+                <div class="reviews reveal">
+                    <div class="hour reveal"><h2>About Us</h2>
+                    <p>Lenore Skwanski, executive chef/co-owner of Five Vines in Portland, Maine, really just sticks with the basics: the New England native and long-time farm-to-table advocate believes that “memorable dining is less about the chef in the kitchen and much more about the fresh, seasonal ingredients.</p></div> <br>
+                    
+                        <div class="hour reveal"><h2>Our Owner</h2>
+                        <img class="bomImg" src="img/vine_review.jpg" alt="Profile"/>
+                            <h3>Lenore Skwanski</h3>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+        
+        
+        <!-- specials -->
+        <section class="specials">
+        
+            <div class="sectionContainer">
+                              
+                <div class="bar reveal">TODAY'S SPECIAL</div>
+                <div class="menu reveal">
+                    <img class="homeImg" src="img/6.jpg" alt="food" />
+                    <h3>Pascale Surloine ............... $30  </h3>
+                    <p id=tab>-Asparagus  
+                         <br> -broccoli.</p>
+                    
+                    <img class="homeIMG" src="img/7.jpg" alt="food" />
+                    <h3>Vegan Shwarma Wrap ... $25</h3>
+                    <p id=tab>-Salted fries<br>  -Tofu </p>
+                    
+                    <img class="homeIMG" src="img/1.jpg" alt="Rating" />
+                    <h3>Kids Meal ............................... $25</h3>
+                    <p id=tab>-1 Slice Pizza<br> -Curly Fries<br> -Medium Fries &amp; -Biscuit </p>
+                
+                    <img class="homeIMG" src="img/13.jpg" alt="Rating" />
+                    <h3>Lovers Night ....................... $25</h3>
+                    <p id=tab>-20% off all Meal purchases<br> -Complementary Wine<br> -Single Rose </p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <!-- reservations -->
+        <section class="reservations">
+        
+            <div class="sectionContainer">
+                      
+                <div class="bar reveal">RESERVATIONS</div>        
+          
+                <h2 class="reveal">Please complete the form below</h2>
+                <p class="reveal"><span>*</span> indicates a required field.</p>
+                <form>
+                    <p class="reveal">
+                    <label for="name">Name: <span>*</span></label>
+                    <input type="text" name="name" placeholder="john doe" name="name" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="phone">Phone: <span>*</span></label>
+                    <input type="text" name="phone" placeholder='(123)-456-7890'name="phone" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="date">Date: <span>*</span></label>
+                    <input type="date" name="date"  name="date" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="time">Time: <span>*</span></label>
+                    <select name="time">
+                    <option>Select a time...</option>    
+                    <option value="10:00 AM">10:00 AM</option> 
+                    <option value="10:30 AM">10:30 AM</option> 
+                    <option value="11:00 AM">11:00 AM</option> 
+                    <option value="11:30 AM">11:30 AM</option> 
+                    <option value="12:00 PM">12:00 PM</option> 
+                    <option value="12:30 PM">12:30 PM</option> 
+                    <option value="01:00 PM">01:00 PM</option> 
+                    <option value="01:30 PM">1:30 PM</option> 
+                    <option value="02:00 PM">2:00 PM</option> 
+                    <option value="02:30 PM">2:30 PM</option> 
+                    <option value="03:00 PM">3:00 PM</option> 
+                    <option value="03:30 PM">3:30 PM</option> 
+                    <option value="04:00 PM">4:00 PM</option> 
+                    <option value="4:30 PM">4:30 PM</option> 
+                    <option value="5:00 PM">5:00 PM</option> 
+                    <option value="5:30 PM">5:30 PM</option> 
+                    <option value="6:00 PM">6:00 PM</option> 
+                    <option value="6:30 PM">6:30 PM</option> 
+                    <option value="7:00 PM">7:00 PM</option> 
+                    <option value="7:30 PM">7:30 PM</option> 
+                    <option value="8:00 PM">8:00 PM</option> 
+                    <option value="8:30 PM">8:30 PM</option> 
+                    <option value="9:00 PM">9:00 PM</option> 
+                    <option value="9:30 PM">9:30 PM</option> 
+                    <option value="10:30 PM">10:00 PM</option> 
+                    <option value="10:30 PM">10:30 PM</option> 
+                    <option value="11:00 PM">11:00 PM</option> 
+                    <option value="11:30 PM">11:30 PM</option> 
+                    
+                    </select>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="guests">Number of Guests<span>*</span></label>
+                    <select name="guests">
+                    <option>Select the number of guests...</option>    
+                    <option value="1">1</option> 
+                    <option value="2">2</option> 
+                    <option value="3">3</option> 
+                    <option value="4">4</option> 
+                    <option value="5">5</option> 
+                    <option value="6">6</option> 
+                    <option value="7">7</option> 
+                    <option value="8">8</option> 
+                    <option value="9">9</option> 
+                    <option value="10">10</option> 
+                    </select>
+                    </p>
+                    
+                    <p class="reveal">
+                        <label for="requests">Special Request</label>
+                        <textarea name="requests" rows="3"></textarea>
+                    </p>
+                    
+                    <p class="reveal">By clicking on submit you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
+                    
+                    <input type="submit" name="Submit"  class="reserve"/>
+                </form>
+            </div>
+            
+        </section>
+        
+        
+        <!-- footer -->
+        <footer>
+            <div class="homeIcon" data-section=".home">
+                <img src="img/home_icon.svg" alt="Home" />
+                <p>About</p>
+            </div>
+            <div class="specialsIcon" data-section=".specials">
+                <img src="img/specials_icon.svg" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon" data-section=".reservations">
+                <img src="img/reservations_icon.svg" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+    
+    
+    
+    <!-- RESTAURANT 3 -->
+    <main id="rest3" class="rest">
+        <!-- header -->
+        <header>
+            <img class="hamburger" src="img/close2hamburger.gif" alt="Menu" />
+            <h1>Hearth &amp; Stone</h1>
+        </header>
+        <!-- home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <img class="logo reveal" src="img/stone.svg" alt="Stone" />
+                <p class="tel reveal">1-800-HEARTH</p>
+                <p class="add reveal">1246 Bender AVE, Toronto, ON M3Y 6K3</p>               
+                <div class="bar reveal">FINE &amp;CASUAL DINING</div>
+                <div class="photoAddress reveal">
+                    <img class="homeImG" src="img/stone_home1.jpg" alt="Home" />
+                    <h2>Our Rating</h2>
+                    
+                    <img class="rating" src="img/stone_rating.png" alt="Rating" />
+                    <div class="photoCount">5 stars!</div>
+                </div>
+                <div class="hours reveal">
+                    <h2>OPENING HOURS</h2>
+                    <p>HOURS TODAY - 10:00 TO 23:00</p>
+                </div>
+                <div class="reviews reveal">
+                    <div class="hour reveal"><h2>About Us</h2>
+                    <p>We are a symbol of warmth and welcome. We are a simple pleasure, honest and genuine. We are a life story told
+                    over dinner. We are a long lunch with an old friend. We are your weekday morning ritual. We are the kindest
+                    gesture of neighbours. We are home. We are family. We are friends.The best sandwiches start with great bread, freshly baked each day in our                     bakery-cafes. 
+                    Crafted with our fresh,high-quality meats, cheeses and vegetables, there’s a whole host of inspired sandwich and panini options for you to                  enjoy. 
+                    From classic favourites to inspired tastes, our variety of hot soups and mac &amp; cheese feature highquality ingredients and deliciously satisfying                    flavour by the spoonful. Hand-tossed and made to order, our salads
+                    use only the freshest ingredients — like vine-ripened tomatoes and crisp field greens — to create flavour combinations as unique as they are                    delicious.
+                    With over 800 bakery-cafes across Canada, we pay attention to the important things: like serving food that’s free of the artificial stuff and                   making sure you have a great experience (have you tried online ordering?). </p></div>
+                    <div class="head reveal">
+                    <h2>Testimonials</h2>
+                    </div>
+                    <div class="testimonial">
+                    <img src="img/8.jpg" alt="tina" style="width:45px">
+                    <p><span>Tina Fox.</span><br> Internet Socialite</p>
+                    <p>Beautiful place, wonderful atmosphere. Quality Sevice and wonderful food.</p>
+                    </div>
+                    
+                    <div class="testimonial">
+                    <img src="img/9.jpg" alt="jen" style="width:45px">
+                    <p><span>Jennifer Aniston.</span><br> Hollywood Actress.</p>
+                    <p>Hearth &amp; Stone would always have a place in my heart of stone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!-- specials -->
+         <section class="specials">
+        
+            <div class="sectionContainer">
+                            
+                <div class="bar reveal">TODAY'S SPECIAL</div>
+                <div class="menu reveal">
+                    <img class="homeImG" src="img/4.jpg" alt="meal" />
+                    <h3>Bacon-Cheese Burger.......$20  </h3>
+                    <p id=tab>-Large Fries <br> -Lemon Pie</p>
+                    
+                    <img class="homeIMG" src="img/5.jpg" alt="meal" />
+                    <h3>Asian Beef Salad.................$25</h3>
+                    <p id=tab>-Mushroom Soup <br> -Mashed Potatoes <br> -Lemon Juice </p>
+                    
+                    <img class="homeIMG" src="img/1.jpg" alt="meal" />
+                    <h3>Kids Meal................................$25</h3>
+                    <p id=tab>-1 Slice Pizza<br> -Curly Fries<br> -Medium Fries <br> -Biscuit </p>
+                    
+                    <img class="homeIMG" src="img/14.jpg" alt="meal" />
+                    <h3>Senior's Night........................$25</h3>
+                    <p id=tab>-50% Off all meals.<br> -Complementary Wine<br> -Free Karaoke <br> -Dance Floor Open Early </p>
+                
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <!-- reservations -->
+        <section class="reservations">
+        
+            <div class="sectionContainer">
+                            
+                <div class="bar reveal">RESERVATIONS</div>        
+          
+                <h2 class="reveal">Please complete the form below</h2>
+                <p class="reveal"><span>*</span> indicates a required field.</p>
+                <form>
+                    <p class="reveal">
+                    <label for="name">Name: <span>*</span></label>
+                    <input type="text" name="name" placeholder="john doe" name="name" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="phone">Phone: <span>*</span></label>
+                    <input type="text" name="phone" placeholder='(123)-456-7890'name="phone" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="date">Date: <span>*</span></label>
+                    <input type="date" name="date" name="date" required/>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="time">Time: <span>*</span></label>
+                    <select name="time">
+                    <option>Select a time...</option>    
+                    <option value="10:00 AM">10:00 AM</option> 
+                    <option value="10:30 AM">10:00 AM</option> 
+                    <option value="11:00 AM">11:00 AM</option> 
+                    <option value="11:30 AM">11:30 AM</option> 
+                    <option value="12:00 PM">12:00 PM</option> 
+                    <option value="12:30 PM">12:30 PM</option> 
+                    <option value="01:00 PM">01:00 PM</option> 
+                    <option value="01:30 PM">1:30 PM</option> 
+                    <option value="02:00 PM">2:00 PM</option> 
+                    <option value="02:30 PM">2:30 PM</option> 
+                    <option value="03:00 PM">3:00 PM</option> 
+                    <option value="03:30 PM">3:30 PM</option> 
+                    <option value="04:00 PM">4:00 PM</option> 
+                    <option value="4:30 PM">4:30 PM</option> 
+                    <option value="5:00 PM">5:00 PM</option> 
+                    <option value="5:30 PM">5:30 PM</option> 
+                    <option value="6:00 PM">6:00 PM</option> 
+                    <option value="6:30 PM">6:30 PM</option> 
+                    <option value="7:00 PM">7:00 PM</option> 
+                    <option value="7:30 PM">7:30 PM</option> 
+                    <option value="8:00 PM">8:00 PM</option> 
+                    <option value="8:30 PM">8:30 PM</option> 
+                    <option value="9:00 PM">9:00 PM</option> 
+                    <option value="9:30 PM">9:30 PM</option> 
+                    <option value="10:30 PM">10:00 PM</option> 
+                    <option value="10:30 PM">10:30 PM</option> 
+                    <option value="11:00 PM">11:00 PM</option> 
+                    <option value="11:30 PM">11:30 PM</option> 
+                    
+                    </select>
+                    </p>
+                    
+                    <p class="reveal">
+                    <label for="guests">Number of Guests<span>*</span></label>
+                    <select name="guests">
+                    <option>Select the number of guests...</option>    
+                    <option value="1">1</option> 
+                    <option value="2">2</option> 
+                    <option value="3">3</option> 
+                    <option value="4">4</option> 
+                    <option value="5">5</option> 
+                    <option value="6">6</option> 
+                    <option value="7">7</option> 
+                    <option value="8">8</option> 
+                    <option value="9">9</option> 
+                    <option value="10">10</option> 
+                    </select>
+                    </p>
+                    
+                    <p class="reveal">
+                        <label for="requests">Special Request</label>
+                        <textarea name="requests" rows="3"></textarea>
+                    </p>
+                    
+                    <p class="reveal">By clicking on submit you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
+                    
+                    <input type="submit" name="Submit"  class="reserve"/>
+                </form>
+            </div>
+            
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="homeIcon" data-section=".home">
+                <img src="img/home_icon.svg" alt="Home" />
+                <p>About</p>
+            </div>
+            <div class="specialsIcon" data-section=".specials">
+                <img src="img/specials_icon.svg" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon" data-section=".reservations">
+                <img src="img/reservations_icon.svg" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+    <img class="Phone" src="img/iphoneCase.png" alt="phone">
+    
+    <!-- link to main js file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

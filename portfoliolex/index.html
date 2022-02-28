@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ràoulex Nurse</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/rn.png" sizes="64x64" type="image/svg+xml"> 
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            <img src="img/rn.png" alt="logo" class="animate__animated animate__fadeIn logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link logo">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        
+        <section class="intro animate__animated animate__zoomInUp splash-page hideAll" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Raoulex Nurse</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro typing-demo">
+                    Front-End Developer
+            </p>
+            <img src="img/me.png" alt="a picture of me" class="intro__img">
+        </section>  
+        <!-- My services -->
+        <section class="my-services parallax splash-page hideAll" id="services">
+            <h2 class="section__title section__title--services speed">What I do</h2>
+            <div class="services ">
+                <div class="service show">
+                    <i class="fab fa-html5 fa-7x" style="color: orangered;"></i>
+                    <p>HTML5</p>
+                    
+                </div> <!-- / service -->
+                
+                <div class="service show">
+                    <i class="fab fa-css3-alt fa-7x" style="color: dodgerblue; --fa-secondary-color: white;"></i>
+                    <p>CSS3</p>
+                </div> <!-- / service -->
+                
+                <div class="service show">
+                    <i class="fab fa-js fa-7x" style="color: gold; "></i>
+                    <p>JavaScript</p>
+                </div> <!-- / service -->
+
+                <div class="service show">
+                    <i class="fab fa-react fa-7x" style="color: lightskyblue; "></i>
+                    <p>React</p>
+                </div> <!-- / service -->
+
+                <div class="service show">
+                    <i class="fab fa-vuejs fa-7x" style="color: lightseagreen;"></i>
+                    <p>Vue.Js</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a  class="btn work">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me reveal splash-page hideAll" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer based out of Toronto</p>
+           
+           <div class="about-me__body">
+               <p>I am 26 years old. Im very adaptive and creative. I love to learn and eagerly discover new things.</p>
+               <p>This is an ever changing portfolio website, that I created it will host all the projects that I've completed thus far within my time at Durham College.Hopefully some of the projects wow and entertain you while you are here</p>
+               <center> <a href="./files/complete cv.pdf" class="btn" download="Resume">Download Resume</a></center>
+           </div>
+           
+           <img src="img/Raoulex Nurse (1).jpeg" alt="me standing" class="about-me__img">
+        </section>
+        
+
+        <!-- My Work -->
+        <section class="my-work reveal parallax splash-page hideAll" id="work">
+            <h2 class="section__title section__title--work">Projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="contain">
+                <div class="image img-hover-zoom">
+                    <a class="portfolio__item">
+                    <img class="image__img" src="/img/portfolio-01.jpg" alt="Website">
+                
+                <div class="image__overlay image__overlay--primary ">
+                    <div class="image__title">Tamagotchi Game</div>
+                    <p class="image__description">
+                        Built with JavaScript.
+                    </p>
+                </div>
+                </a>
+                </div>
+                
+                <div class="image img-hover-zoom">
+                    <a class="portfolio__item2">
+                    <img class="image__img" src="/img/portfolio-02.png" alt="Website">
+                    <div class="image__overlay image__overlay--primary">
+                        <div class="image__title">Restaurant App</div>
+                        <p class="image__description">
+                            All apps built.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="image img-hover-zoom">
+                    <a class="portfolio__item3">
+                    <img class="image__img" src="/img/3.png" alt="Website">
+                    <div class="image__overlay image__overlay--primary">
+                        <div class="image__title">Mad Movies Database</div>
+                        <p class="image__description">
+                            All apps built.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="image img-hover-zoom">
+                    <a class="portfolio__item4">
+                    <img class="image__img" src="/img/portfolio-04.jpg" alt="Website">
+                    <div class="image__overlay image__overlay--primary">
+                        <div class="image__title">Tic-Tac Toe Game</div>
+                        <p class="image__description">
+                            All apps built.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="image img-hover-zoom">
+                    <a class="portfolio__item5">
+                    <img class="image__img" src="/img/portfolio-05.jpg" alt="Website">
+                    <div class="image__overlay image__overlay--primary">
+                        <div class="image__title">Games</div>
+                        <p class="image__description">
+                            All apps built.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="image img-hover-zoom">
+                    <a class="portfolio__item6">
+                    <img class="image__img" src="/img/portfolio-06.jpg" alt="Website">
+                    <div class="image__overlay image__overlay--primary">
+                        <div class="image__title">Games</div>
+                        <p class="image__description">
+                            All apps built.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+                </div>
+
+        </section>    
+           
+        
+        <main class="project-page hideAll">
+        <section class="intro">
+            <h1 class="section__title section__title--intros animate__animated animate__zoomInUp">
+                <strong>Tamagotchi Game</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">An Interactive Game</p>
+            <img src="img/portfolio-01.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual reveal">
+            <p>I was tasked to create a tamagotchi game that a user would be able to play with and have fun. The pet would be able to convey emotions and be fed and also speak to the user.</p>
+            <img src="img/portfolio-details.jpg" alt="">
+            <p>The User has their name taken in and will be able to start the game.</p>
+            <p>The pet then returns a message to start the game and it has 60 seconds to live. During that the time the user can feed it to add calories to the counter to keep it alive. Each time the pet returns a compliment and convey an emotion back to the user.</p>
+            <center> <a href="https://dca.durhamcollege.ca/~nurseraoulex/tamagotchi_game/" class="btn" target="_blank">Play Game</a></center>
+        </div>
+        </main>
+        
+        <!-- Restaurant App -->
+        <main class="project-page-2 reveal hideAll">
+        <section class="intro">
+            <h1 class="section__title section__title--intros animate__animated animate__zoomInUp">
+                <strong>Restaurant App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Mobile Restaurant App</p>
+            <img src="img/portfolio-02.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual reveal">
+            <p>I was tasked to create a tamagotchi game that a user would be able to play with and have fun. The pet would be able to convey emotions and be fed and also speak to the user.</p>
+            <img src="img/portfolio-details.png" alt="">
+            <p>The User has their name taken in and will be able to start the game.</p>
+            <p>The pet then returns a message to start the game and it has 60 seconds to live. During that the time the user can feed it to add calories to the counter to keep it alive. Each time the pet returns a compliment and convey an emotion back to the user.</p>
+            <center> <a href="./files/restaurant_app/"  class="btn" target="_blank">Visit App</a></center>
+        </div>
+        </main>
+        
+        <!-- Mad Movies Database -->
+        <main class="project-page-3 reveal hideAll">
+        <section class="intro">
+            <h1 class="section__title section__title--intros animate__animated animate__zoomInUp">
+                <strong>Mad Movies Database</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A Movie Database</p>
+            <img src="img/3.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual reveal">
+            <p>I was tasked to create a tamagotchi game that a user would be able to play with and have fun. The pet would be able to convey emotions and be fed and also speak to the user.</p>
+            <img src="img/splash.png" alt="">
+            <p>The User has their name taken in and will be able to start the game.</p>
+            <p>The pet then returns a message to start the game and it has 60 seconds to live. During that the time the user can feed it to add calories to the counter to keep it alive. Each time the pet returns a compliment and convey an emotion back to the user.</p>
+            <center> <a href="./files/restaurant_app/"  class="btn" target="_blank">Visit App</a></center>
+        </div>
+        </main>
+        
+        <!-- Tic-Tac-Toe Game -->
+        <main class="project-page-4 reveal hideAll">
+        <section class="intro">
+            <h1 class="section__title section__title--intros animate__animated animate__zoomInUp">
+                <strong>Tic-Tac-Toe Game</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A Movie Database</p>
+            <img src="img/3.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual reveal">
+            <p>I was tasked to create a tamagotchi game that a user would be able to play with and have fun. The pet would be able to convey emotions and be fed and also speak to the user.</p>
+            <img src="img/splash.png" alt="">
+            <p>The User has their name taken in and will be able to start the game.</p>
+            <p>The pet then returns a message to start the game and it has 60 seconds to live. During that the time the user can feed it to add calories to the counter to keep it alive. Each time the pet returns a compliment and convey an emotion back to the user.</p>
+            <center> <a href="./files/restaurant_app/"  class="btn" target="_blank">Visit App</a></center>
+        </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer ">
+            <!-- replace with your own email address -->
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="/contact-form-process.php">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                    </div>
+                </div>
+                </div>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/raoulex-nurse-5a7366115">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ramarion">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+          
+        </footer>
+        <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"
+        integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+        <script src="js/vendor/jquery.js" type="text/javascript"></script>
+        <script src="js/sammy.js" type="text/javascript"></script>
+        <script src="js/sammy.min.js" type="text/javascript"></script>
+        <script src="js/sammy.template.js" type="text/javascript"></script>
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
